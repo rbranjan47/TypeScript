@@ -36,3 +36,36 @@ data = { name: "Alice", age: 25 }; // This is also allowed
 console.log(data); // Output: { name: "Alice", age: 25 }
 
 
+//*********************************** Type: unknown ***********************************//
+//Unknown Type: The unknown type is a type that represents any value, similar to the any type. 
+// However, unlike any, you must perform a type check or type assertion before you can use the value. 
+// This provides better type safety. For example:
+
+
+let userInput: unknown = "Hello, World!";
+if (typeof userInput === "string"
+    && userInput.length > 0
+    && userInput.trim() !== ""
+    && userInput.includes("Hello")
+    && userInput.includes("World")
+    && userInput.includes("!")
+    && userInput.includes(" ")
+    && userInput.includes(",")
+) { // Type check to ensure userInput is a non-empty string
+    console.log(userInput); // Output: Hello, World!
+}
+
+
+let additionalInput: unknown = "ABCDEF 12345 &*^%$#@!"; 
+if (typeof additionalInput === "string" 
+    && additionalInput.length > 0
+    && additionalInput.trim() !== ""
+    && additionalInput.includes("ABC")
+    && additionalInput.includes("12345")
+    && additionalInput.includes("&*^%$#@!")
+) { // Type check to ensure additionalInput is a non-empty string with specific content
+    console.log(additionalInput); // Output: ABCDEF 12345 &*^%$#@!
+} else {
+    console.log("Invalid input. Please provide a non-empty string with the required content.");
+}
+

@@ -36,3 +36,15 @@ let persons = [
     { name: "Charlie", age: 35, contact: 9876543210, address: "789 Pine Rd" }
 ];
 console.log(persons);
+//*********************************** TypeScript : Null & Undefined ***********************************//
+//TypeScript has two special types: null and undefined. These types represent the absence of a value.
+//1. Null Type: The null type represents the intentional absence of any object value. 
+//              It is often used to indicate that a variable should not have a value. 
+//              For example:
+let myVariable = null; // This variable can be a string or null
+console.log(myVariable); // Output: null  
+//2. Undefined Type: The undefined type represents the value of a variable that has not been assigned a value. 
+//                   It is often used to indicate that a variable is uninitialized. 
+//                   For example: 
+let anotherVariable; // This variable can be a number or undefined
+console.log(anotherVariable); // Output: undefined
