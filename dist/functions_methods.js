@@ -1,5 +1,6 @@
 "use strict";
 // Functions and Methods in TypeScript
+Object.defineProperty(exports, "__esModule", { value: true });
 // Functions are reusable blocks of code that perform a specific task. 
 // Return type- Type of value returned by the function can be explicitly defined. 
 // Example1:
@@ -54,3 +55,4 @@ function mayThrowError(message) {
     console.log(message);
     throw new Error(message);
 }
+//# sourceMappingURL=functions_methods.js.map

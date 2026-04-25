@@ -3,6 +3,7 @@
 // Typescript allows types to be defined sperately from the variables that use them. 
 // This is done using type aliases, which are created using the type keyword.
 // Aliases and Interfaces allows types to be easily shared between different variables/objects.
+Object.defineProperty(exports, "__esModule", { value: true });
 // ------------ Defineing variables using the type aliases
 const BikeYear = 2025;
 const BikeType = "Unscripted";
@@ -39,3 +40,4 @@ console.log(duck);
 //* Unions/Intersections- Only type aliases support unions & intersections.
 //* Implements- Classes can implement either.
 //* Recommendation- User INTERFACES for objects, TYPE for everything else (primitives, unions, tuples, etc.)
+//# sourceMappingURL=Aliases_Interfaces.js.map

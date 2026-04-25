@@ -91,7 +91,7 @@ interface bike {
     features?: {
         color: string;
         weight: number;
-    };
+    }; 
 }
 
 function displayBikeInfo(bike: bike): void {
@@ -128,5 +128,4 @@ displayBikeInfo(myTVSBike);
 //        Bike Price: 175000
 //        Bike Color: Black
 //        Bike Weight: 160
-
 

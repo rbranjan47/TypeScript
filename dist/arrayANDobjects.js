@@ -1,6 +1,7 @@
 "use strict";
 //Arrays in Typescript
 //Arrays in TypeScript can be defined using two different syntaxes: the array type syntax and the generic array type syntax.
+Object.defineProperty(exports, "__esModule", { value: true });
 //1. Array Type Syntax: You can define an array using the array type syntax by specifying the type of elements followed by square brackets. 
 // For example:
 let numbers = [1, 2, 3, 4, 5];
@@ -48,3 +49,4 @@ console.log(myVariable); // Output: null
 //                   For example: 
 let anotherVariable; // This variable can be a number or undefined
 console.log(anotherVariable); // Output: undefined
+//# sourceMappingURL=arrayANDobjects.js.map

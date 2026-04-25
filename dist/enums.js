@@ -1,5 +1,6 @@
 "use strict";
 //*********************************** ENUMS *********************************** //
+Object.defineProperty(exports, "__esModule", { value: true });
 // Enums are a way to define a set of named constants. 
 // They can be used to represent a collection of related values in a more readable and maintainable way. In 
 // TypeScript, you can define enums using the enum keyword.
@@ -63,3 +64,4 @@ setColor(Color.Gold); //Output: The color is: Gold
 setColor(Color.Bronze); //Output: The color is: Bronze
 setColor(Color.Violet); //Output: The color is: Violet
 //setColor(Color.Brown); //Output: The color is: Brown //compile-time error because Brown is not a valid color in the enum
+//# sourceMappingURL=enums.js.map

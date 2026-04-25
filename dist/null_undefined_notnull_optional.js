@@ -1,5 +1,6 @@
 "use strict";
 //*********************************** Null ***********************************//
+Object.defineProperty(exports, "__esModule", { value: true });
 // Null- In TS, null is a value that represents the intentional ABSENCE of any object value. 
 // Indicate that it has no value or that it is empty. For example:
 let myVariable = null; // myVariable can be a string or null
@@ -71,3 +72,4 @@ displayBikeInfo(myTVSBike);
 //        Bike Price: 175000
 //        Bike Color: Black
 //        Bike Weight: 160
+//# sourceMappingURL=null_undefined_notnull_optional.js.map
